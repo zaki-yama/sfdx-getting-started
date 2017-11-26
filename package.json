@@ -1,0 +1,7 @@
+{
+  "name": "sfdx-getting-started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shingo Yamazaki <shingoyamazaki00@gmail.com>",
+  "license": "MIT"
+}
