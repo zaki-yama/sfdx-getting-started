@@ -1,7 +1,14 @@
 2. Get Ready to Create an App
 =============================
 
-この章では DX のサンプルプロジェクトを作り、Scratch Org
+この章では
+
+* DX のサンプルプロジェクトを作成する
+* Scratch Org を作成する
+* カスタム項目や権限セットを作成し、ローカルに取り込む
+* サンプルデータをインポート／エクスポートする
+
+といったことを行います。
 
 ## プロジェクトを作成する
 
@@ -86,7 +93,7 @@ $ sfdx force:org:open
 
 作成したカスタム項目への権限セットを作成します。ラベルは `Geolocation` とし、「オブジェクト設定」から取引先の Location 項目に対して参照および編集アクセス権を付与します。
 
-![permission-set](permission-set.png)
+![permission-set](images/permission-set.png)
 
 
 作成したら、 `user:permset:assign` コマンドでユーザに権限セットを割り当てます。
