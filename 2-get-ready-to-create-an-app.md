@@ -67,7 +67,7 @@ Successfully created scratch org: 00D0l0000000Y8gEAE, username: test-hnxv7auqt6r
 
 `Successfully created...` が表示されれば OK です。
 
-なお、このタイミングで `geolocation` の下に `.sfdx` ディレクトリが作成されますが `.gitignore` に追加しておくのが良いです。
+なお、このタイミングで `geolocation` の下に `.sfdx` ディレクトリが作成されますが、これは git などのバージョン管理には含めない方がいいそうです。`.gitignore` に追加しておきましょう。
 
 > Whatever VCS you use, we recommend that you configure it to exclude the .sfdx folder from being added to the repository. This folder holds temporary information for your scratch orgs, so you don’t have to save it for posterity in your VCS. In Git, you would add it to the .gitignore file.
 
